@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/node,linux,macos,windows,webstorm
+# Created by https://www.gitignore.io/api/node,windows,linux,macos,webstorm,bower
 
 ### Node ###
 # Logs
@@ -48,6 +48,27 @@ jspm_packages
 *.tgz
 
 
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
 ### Linux ###
 *~
 
@@ -91,27 +112,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
-
-### Windows ###
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
 
 
 ### WebStorm ###
@@ -167,3 +167,11 @@ fabric.properties
 # modules.xml
 # .idea/misc.xml 
 # *.ipr
+
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
